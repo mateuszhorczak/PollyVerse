@@ -1,0 +1,34 @@
+# Sqlite database
+src/server/database.db
+
+# User/images
+src/public/upload
+
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+.stylelintcache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode
